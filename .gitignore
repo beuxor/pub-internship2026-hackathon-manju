@@ -1,5 +1,7 @@
 .env
 
+__pycache__/
+
 .cortex/plans/
 .snowflake/*
 !.snowflake/cortex/

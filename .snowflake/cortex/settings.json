@@ -1,3 +1,4 @@
 {
-  "cortexAgentConnectionName": "dev"
+  "cortexAgentConnectionName": "dev",
+  "theme": "light"
 }

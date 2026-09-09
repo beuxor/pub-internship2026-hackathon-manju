@@ -1,0 +1,15 @@
+definition_version: 2
+entities:
+  city_guesser:
+    type: streamlit
+    identifier:
+      name: CITY_GUESSER
+      database: TEAM_E_DB
+      schema: DEVELOPMENT
+    query_warehouse: TEAM_E_WH
+    runtime_name: SYSTEM$ST_CONTAINER_RUNTIME_PY3_11
+    compute_pool: TRAINING_STREAMLIT_POOL
+    main_file: streamlit_app.py
+    artifacts:
+      - streamlit_app.py
+      - pyproject.toml
